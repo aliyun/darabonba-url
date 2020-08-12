@@ -1,0 +1,33 @@
+/**
+ * This is for Url
+ */
+
+model Url {
+    scheme?: string,
+    auth?: Auth,
+    host?: Host,
+    path?: Path,
+    hash?: string,
+}
+
+model Auth {
+    username?: string,
+    password?: string,
+}
+
+model Host {
+    hostname?: string,
+    port?: string,
+}
+
+model Path {
+    pathname?: string,
+    search?: string,
+}
+
+/**
+ * Parse ref and return an object of Url
+ * @param ref  url string
+ * @return the object of Url
+ */
+static function parseUrl(ref: string) throws: Url;
