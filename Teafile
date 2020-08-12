@@ -1,7 +1,7 @@
 {
 	"scope": "darabonba",
 	"name": "Url",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "./main.tea",
 	"releases": {
 		"ts": "@alicloud/tea-url:^1.0.0",
@@ -33,6 +33,6 @@
 	},
 	"python": {
 		"package": "alibabacloud_url",
-		"clientName": "url"
+		"clientName": "client"
 	}
 }
