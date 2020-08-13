@@ -5,11 +5,11 @@
 
 ## 问题
 
-[Opening an Issue](https://github.com/aliyun/tea-url/issues/new)，不符合指南的问题可能会立即关闭。
+[Opening an Issue](https://github.com/aliyun/darabonba-url/issues/new)，不符合指南的问题可能会立即关闭。
 
 ## 相关
 
-- [Latest Release](https://github.com/aliyun/tea-url)
+- [Latest Release](https://github.com/aliyun/darabonba-url)
 
 ## 许可证
 
