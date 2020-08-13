@@ -35,6 +35,13 @@ function run_go {
   upload_codecov_report golang go
 }
 
+function run_java {
+  cd java/ || return 126
+  mvn test -B || return 126
+  cd ../
+  upload_codecov_report java java
+}
+
 function run_csharp {
   # before_install
   wget https://download.visualstudio.microsoft.com/download/pr/42f39f2f-3f24-4340-8c57-0a3133620c21/0a353696275b00cbddc9f60069867cfc/dotnet-sdk-2.2.110-linux-x64.tar.gz
@@ -109,6 +116,10 @@ elif [ "$lang" == "go" ]
 then
   echo "run golang"
   run_go
+elif [ "$lang" == "java" ]
+then
+  echo "run java"
+  run_java
 elif [ "$lang" == "csharp" ]
 then
   echo "run csharp"
