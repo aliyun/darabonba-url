@@ -7,7 +7,7 @@
 
 
 ## 要求
-- 您需要确保本地安装的 Java 环境版本大于 1.8.
+- 您需要确保本地安装的 Java 环境版本大于 1.7.
 
 ## 安装
 
@@ -17,7 +17,7 @@
 <dependency>
     <groupId>com.aliyun</groupId>
     <artifactId>tea</artifactId>
-    <version>[1.0.2, 2.0.0)</version>
+    <version>[1.0.5, 2.0.0)</version>
 </dependency>
 <dependency>
     <groupId>com.aliyun</groupId>

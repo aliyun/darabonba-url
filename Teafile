@@ -1,13 +1,13 @@
 {
 	"scope": "darabonba",
 	"name": "Url",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"main": "./main.tea",
 	"releases": {
 		"ts": "@alicloud/tea-url:^1.0.0",
 		"go": "github.com/alibabacloud-go/darabonba-url/client:v0.0.1",
 		"csharp": "AlibabaCloud.TeaUrl:1.0.0",
-		"java": "com.aliyun:tea-url:0.0.1",
+		"java": "com.aliyun:tea-url:0.0.2",
 		"php": "alibabacloud/darabonba-url:^0.0.1",
 		"python": "alibabacloud_url:0.0.1"
 	},
