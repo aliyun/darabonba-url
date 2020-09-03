@@ -6,7 +6,7 @@ English | [简体中文](README-CN.md)
 
 
 ## Requirements
-- It's necessary for you to make sure your system have installed a Java environment which is new than 1.8.
+- It's necessary for you to make sure your system have installed a Java environment which is new than 1.7.
 
 ## Installation
 If you use `maven` to manage your dependence, you can use the following command:
@@ -15,7 +15,7 @@ If you use `maven` to manage your dependence, you can use the following command:
 <dependency>
     <groupId>com.aliyun</groupId>
     <artifactId>tea</artifactId>
-    <version>[1.0.2, 2.0.0)</version>
+    <version>[1.0.5, 2.0.0)</version>
 </dependency>
 <dependency>
     <groupId>com.aliyun</groupId>
