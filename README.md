@@ -4,6 +4,9 @@ English | [简体中文](README-CN.md)
 
 # Alibaba Cloud Url
 
+[![Travis Build Status](https://travis-ci.org/aliyun/darabonba-url.svg?branch=master)](https://travis-ci.org/aliyun/darabonba-url)
+[![codecov](https://codecov.io/gh/aliyun/darabonba-url/branch/master/graph/badge.svg)](https://codecov.io/gh/aliyun/darabonba-url)
+
 ## Issues
 
 [Opening an Issue](https://github.com/aliyun/darabonba-url/issues/new), Issues not conforming to the guidelines may be closed immediately.
