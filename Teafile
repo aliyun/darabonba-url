@@ -12,7 +12,7 @@
 		"python": "alibabacloud_url:0.0.1"
 	},
 	"java": {
-		"package": "com.aliyun.tea-url"
+		"package": "com.aliyun.teaurl"
 	},
 	"csharp": {
 		"namespace": "AlibabaCloud.TeaUrl",
